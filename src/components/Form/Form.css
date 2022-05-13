@@ -1,0 +1,21 @@
+.form {
+  display: flex;
+  align-items: flex-end;
+}
+
+.form > * + * {
+  margin-left: 10px;
+}
+
+.main-input {
+  padding: 10px 20px;
+
+  line-height: 1;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+.form-submit {
+  cursor: pointer;
+}
